@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+canvas {
+  width: 100%;
+  max-width: 70vw;
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 100%;
+}
+
+.slidecontainer {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#flag-container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 0;
+  top: 200px;
+}
+#flag-container * {
+  width: 500px;
+  height: 100px;
+}
+#flag-container .transblue {
+  background-color: #55CDFC;
+}
+#flag-container .transpink {
+  background-color: #F7A8B8;
+}
+#flag-container .transwhite {
+  background-color: #FFFFFF;
+}
+
+#measure {
+  position: absolute;
+  left: -10000px;
+  top: -100000px;
+}/*# sourceMappingURL=styles.css.map */
